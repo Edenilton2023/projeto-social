@@ -46,3 +46,26 @@ iframe#tela{
     height: 471px;
   
 }
+#redeSociais >a >img{
+    border-radius: 50%;
+    width: 40px;
+    margin: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.307);
+    /* para colocar um em baoxo do outro vou usar o <br> pra quebra a linha  pelo HTML   pois ainda nao sei usar o flexbox  */
+  box-sizing: border-box;/*faz com que a borada passe a fazer parte do elemeto assim para de empurra ( */
+    
+  
+}
+#redeSociais{
+ text-align: right  ;
+
+   
+
+}
+#redeSociais img:hover{
+    /* border: 3px solid rgba(255, 255, 255, 0.636); */
+    transform: translate(-4px ,-2px);
+   transition: transform .1s, /*border .5s;  (tambem posso usar  )*/
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.500);
+    
+}
